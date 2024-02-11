@@ -1,0 +1,88 @@
+<!--this code is written for a quiz-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="background-color: aqua; font-size: 150px; margin-top: 0px;">
+        Video
+    </h1>
+    <ul style="background-color: rgb(130, 161, 161); color: antiquewhite; margin-top: -100px;display: flex;">
+        <li value="tech Videos" style="background-color:teal ; color:white">
+            <h2>Tech Videos</h2>
+            <label for="video1">My Most.....</label>
+            <div>
+                <iframe id="video1" width="560" height="315"
+                    src="https://www.youtube.com/embed/VG7RONAFkkA?si=vXSdIJnHE0497Air" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </li>
+        </div>
+        <div>
+
+            <label for="video2">Video 2</label>
+        </div>
+        <div>
+            <iframe id="video2" width="560" height="315"
+                src="https://www.youtube.com/embed/cVDFusW8I6I?si=AY0urqydBbh47qUZ" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            video3
+        </div>
+        <div>
+
+
+            video4
+        </div>
+
+    </ul>
+    <h2>Funny Videos</h2>
+    <ul style="background-color: rgb(223, 219, 169); color: rgb(23, 131, 95); display: flex; ">
+        <div>
+            <label for="funny-video-3" style="font-size: 20px; display:">BETRAYAL</label>
+        </div>
+        <div>
+
+            <li value="video1">
+                <iframe id="funny-video-3" width="560" height="315"
+                    src="https://www.youtube.com/embed/HR9lET2htJA?si=4XfSy-Xc0tHCKLsc" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </li>
+        </div>
+        <label for="funny-video-2" style="font-size: 20px;">Motu Patlu</label>
+        <li><iframe id="funny-video-2" width="560" height="315"
+                src="https://www.youtube.com/embed/xBZzPe0Flx0?si=XbCUaIPbJ3UTWMnI" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </li>
+    </ul>
+    <ul style="background-color:turquoise;">
+        <h2>new kind</h2>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/gL1YukrikuM?si=fCcJVASplaSpjfGO"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe></li>
+
+    </ul>
+    <ul>
+        <h2 style="font-size: 150px;">Audio</h2>
+        <label for="kulle">Kulley Keulle (honey singh 3.0)</label>
+        <li value="kullekulle" id="kulle">
+            <audio controls autoplay src="https://open.spotify.com/track/4vfIrh3XlvfCLbBQgM7Mdh"></audio>
+        </li>
+    </ul>
+</body>
+
+
+</html>
